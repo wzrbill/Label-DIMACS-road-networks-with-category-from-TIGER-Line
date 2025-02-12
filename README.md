@@ -8,7 +8,7 @@ We use TIGER/Line dataset from DIMACS to attach categories to edges
     http://www.diag.uniroma1.it/challenge9/download.shtml, NY for the rest of description.
     
    * 2.
-       Then we download all the TIGER/Line from 
+     Then we download all the TIGER/Line from 
        http://www.diag.uniroma1.it/challenge9/data/tiger/, and we merge them into USA_ALL.tmp for reference.
        merge.cpp can be found at "Merging of two or more files" on the same webpage,
        and compile it to 'merge.out' before running
