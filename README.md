@@ -3,8 +3,8 @@ The purpose of this notebook is to attach category of each edge of DIMACS road n
 ### Source: 
 We use TIGER/Line dataset from DIMACS to attach categories to edges
 ### Approach: 
-    * 1.
-    We first download target road network from 
+   * 1.
+        We first download target road network from 
     http://www.diag.uniroma1.it/challenge9/download.shtml, NY for the rest of description.
     
    * 2.
@@ -18,9 +18,9 @@ We use TIGER/Line dataset from DIMACS to attach categories to edges
        save it as USA-road-l.NY.gr in the format of DIMACS.
 
 ### WorkFlow:
- http://www.diag.uniroma1.it/challenge9/data/tiger/merge.cpp
+ download merge.cpp from http://www.diag.uniroma1.it/challenge9/data/tiger/merge.cpp
  ```c++
- - Data preparation(with merge.out)
+ - Data preparation with merge.out already compiled
    - pullFromTigerLine()
    |
    - pullFromDIMACS()
