@@ -16,7 +16,7 @@ Please find detailed description of road category from [Census](https://www2.cen
        save it as USA-road-l.NY.gr in the format of DIMACS.
 
    * 4. We rebalance the number of labels by first sort labels by descending order of their frequencies.
-        And then we merge them by set the interval as $s$ and $e = math.floor(s+\frac{(len(key_lis) - i -1 )}/{l_size} + 1)$
+        And then we merge them by set the interval as $s$ and $e = math.floor(s+ (len(key_lis) - i -1)/l_size + 1)$
 
 
 ### File Format
@@ -76,6 +76,21 @@ a 4 3 158
 a 5 6 774
 a 6 5 774
 a 7 8 1531
+...
+```
+Fragment of data from road network NY.co
+```c++
+c 9th DIMACS Implementation Challenge: Shortest Paths
+c http://www.dis.uniroma1.it/~challenge9
+c TIGER/Line nodes coords for graph USA-road-d.NY
+c
+p aux sp co 264346
+c graph contains 264346 nodes
+c
+v 1 -73530767 41085396
+v 2 -73530538 41086098
+v 3 -73519366 41048796
+v 4 -73519377 41048654
 ...
 ```
 
