@@ -16,7 +16,9 @@ Please find detailed description of road category from [Census](https://www2.cen
        save it as USA-road-l.NY.gr in the format of DIMACS.
 
    * 4. We rebalance the number of labels by first sort labels by descending order of their frequencies.
-        And then we merge them by set the interval as $s$ and $e = math.floor(s+ (len(key\_lis) - i -1)/l\_size + 1)$
+        And then we merge them by set the interval as:
+        s
+        e = math.floor(s+ (len(key_lis) - i -1)/l_size + 1)
 
 
 ### File Format
