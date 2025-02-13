@@ -25,16 +25,16 @@ TIGER/Line file format
 The format of the uncompressed file is very simple. It is a whitespace-separated list of numbers:
 - Number of nodes
 - For each node:
- id
- longitude
- latitude
+  id
+  longitude
+  latitude
 - Number of edges
 - For each edge:
- id of the source node
- id of the target node
- travel time
- spatial distance in meters
- road category
+  id of the source node
+  id of the target node
+  travel time
+  spatial distance in meters
+  road category
 ```
 Fragment of data from TIGER/Line NY.tmp
 ```c++
