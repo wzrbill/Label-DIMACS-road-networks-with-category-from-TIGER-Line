@@ -1,7 +1,7 @@
 ### Purpose: 
 The purpose of this notebook is to attach category of each edge of DIMACS road networks.
 ### Source: 
-We use TIGER/Line dataset from DIMACS to attach categories to edges
+We use TIGER/Line dataset from DIMACS to attach categories to edges<br>
 Please find detailed description of road category from [Census](https://www2.census.gov/geo/tiger/TIGER1992/Documentation/APPENDXE.txt)
 ### Approach: 
    * 1. We first download target road network from 
