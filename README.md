@@ -120,3 +120,8 @@ v 4 -73519377 41048654
    |
    -: Write as: USA-road-l.NY.gr
 ```
+### TODO:
+1. When dealing with larger graph like USA.gr, current version cannot correctly remove redundant edges.
+   -> To use Networkx for such purpose.
+2. When you are running this note book from your local machine with remote jupyter server, the printing functions can cause traffic overtime.
+   -> To optimize printing infos.
